@@ -1,21 +1,22 @@
+  
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="weight_stylesheet.css" />
-    <title>Weight Convertor</title>
+    <link rel="stylesheet" href="length_stylesheet.css" />
+    <title>Length Convertor</title>
   </head>
 
   <body>
     <div class="container">
-      <h1 class="display-4">Weight Converter</h1>
+      <h1 class="display-4">Length Converter</h1>
       <form>
         <input
-          id="kgInput"
+          id="metreInput"
           type="number"
           class="form-control"
-          placeholder="Enter Kilograms...."
+          placeholder="Enter metres...."
         />
 
         <div>
@@ -25,24 +26,24 @@
 
       <div id="output">
         <div class="card card-primary">
-          <h4>Pounds:</h4>
-          <input class="lbsOutput" disabled />
+          <h4>Feets:</h4>
+          <input class="feetOutput" disabled />
         </div>
 
         <div class="card card-success">
-          <h4>Ounces:</h4>
-          <input class="ozOutput" disabled />
+          <h4>Inches:</h4>
+          <input class="inchOutput" disabled />
         </div>
 
         <div class="card card-danger">
-          <h4>Grams:</h4>
-          <input class="gramsOutput" value="" disabled />
+          <h4>Centimetres:</h4>
+          <input class="cmOutput" value="" disabled />
         </div>
       </div>
       <div class="btn-container">
         <a class="backButton" href="../index.html">Back to main page</a>
       </div>
     </div>
-    <script src="weight_script.js"></script>
+    <script src="length_script.js"></script>
   </body>
 </html>
